@@ -14,6 +14,7 @@ import LandingPage from './pages/LandingPage';
 import LoginPage from './pages/LoginPage';
 import SignupPage from './pages/SignupPage';
 import ForgotPasswordPage from './pages/ForgotPasswordPage';
+import ResetPasswordPage from './pages/ResetPasswordPage';
 import CustomerMarketplacePage from './pages/CustomerMarketplacePage';
 import BundleDetailPage from './pages/BundleDetailPage';
 import MyReservationsPage from './pages/MyReservationsPage';
@@ -39,6 +40,7 @@ export default function App() {
                 <Route path="/login" element={<LoginPage />} />
                 <Route path="/signup" element={<SignupPage />} />
                 <Route path="/forgot-password" element={<ForgotPasswordPage />} />
+                <Route path="/reset-password" element={<ResetPasswordPage />} />
                 <Route path="/impact" element={<EnvironmentalImpactPage />} />
                 <Route path="/bundle/:id" element={<BundleDetailPage />} />
 
